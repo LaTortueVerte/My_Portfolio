@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css?v=2">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#accueil">Home</a></li>
+                <li><a href="#a-propos">About me</a></li>
+                <li><a href="#projets">Projects</a></li>
+                <li><a href="#Parcours">Career path</a></li>
+                <li><a href="#competences">Skills</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="language-toggle-container">
+                <button id="language-toggle">
+                    <img src="images/france.png" alt="language" id="language_img">
+                </button>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section id="accueil">
+            <div class="intro">
+                <div class="profile-pic"></div>
+                <h1>Welcome on my portfolio</h1>
+                <p>Discover my projects and skills</p>
+            </div>
+
+            <div class="image-container">
+                <img class= "glow" src="images/profil_img_2.jpg" alt="Description of the image">
+            </div>
+        </section>
+
+        <section id="a-propos">
+            <h2>📑 About me 🐢</h2>
+            <br><br><br>
+            <p>
+                Hi, I'm Arthur Soulet-Winock and I like to create. I am passionate about programming, electronics, nature and drawing.
+            </p>
+        </section>
+
+        <section id="projets">
+            <h2>🚩 Projects 🏗️</h2>
+            <p> 
+                During my course and on my personal time I realized several projects 
+            </p>
+            <br>
+
+            <div class="projects-gallery">
+                <div class="project">
+                    <div class="image-container-prj">
+                        <div class="inner-img ">
+                            <img src="images/terraphore.jpg" class="project-img" alt="Description of the image">
+                        </div>
+                        <div class="overlay">
+                            <p class="text">Terraphore</p>
+                        </div>
+                    </div>
+
+                    <div class="description">
+                        <p> 
+                            The winning student project of the edition <span class="imp">MasterProject 2023</span> organized within our school, 
+                            <span class="imp">Terraphore</span> is a rover permacole hedgerow planter. It can move autonomously, 
+                            dig holes and plant several species of hedges. 
+                            <br><br>
+                            Within this project, I worked on the integration of the <span class="imp">Ardupilot</span> autopilot and the <span class="imp">Pixhawk 8C</span> board, 
+                            the motor drivers, the connection between all the rover modules, the wiring, the tests and finally the video. 
+                            <br><br>
+                            
+                            <div class="image-text-container">
+                                <img src="images/youtube-icon.svg" alt="Icon" class="icon-img">
+                                <span class="icon-text"><a href="https://youtu.be/PXa3Haiu7zM" target="_blank">link to the video</a></span>
+                            </div>
+                        </p>
+                    </div>
+                </div>
+
+                <div class="project">
+                    <div class="image-container-prj">
+                        <div class="inner-img">
+                            <img src="images/draw-smthg.png" class="project-img" alt="Description of the image">
+                        </div>
+                        <div class="overlay">
+                            <p class="text">Draw.smthg</p>
+                        </div>
+                    </div>
+
+                    <div class="description">
+                        <p>
+                            
+
+                            <span class="imp">Draw.smthg</span> is a personal project, it was a drawing website. 
+                            Each day, a new theme was presented, the user could then make 
+                            a unique drawing on the proposed subject. He could afterwards visualize the drawings of other users. 
+                            The drawing tool is in <span class="imp">pure javascript</span>, and the back-end part is in 
+                            <span class="imp">PHP</span> and a <span class="imp">SQL</span> part for user account management. 
+                            <br><br>
+
+                            <div class="image-text-container">
+                                <img src="images/github-icon.svg" alt="Icon" class="icon-img">
+                                <span class="icon-text"><a href="https://github.com/LaTortueVerte/draw.smthg " target="_blank">link to github repository</a></span>
+                            </div>
+                        </p>
+                    </div>
+                </div>
+
+                <div class="project">
+                    <div class="image-container-prj">
+                        <div class="inner-img">
+                            <img src="images/IOT - RGB LED.png" class="project-img" alt="Description of the image">
+                        </div>
+                        <div class="overlay">
+                            <p class="text">IOT - RGB LED pannel</p>
+                        </div>
+                    </div>
+
+                    <div class="description">
+                        <p>
+
+                            <span class="imp">IOT RGB Pannel</span> is also a personal project, it is the interfacing 
+                            of a 32x16 LED RGB screen of the adafruit brand. I found that LED panels were too complicated to use 
+                            because of the wiring, and programming, so I decided to create a <span class="imp">PCB</span> 
+                            to facilitate its use with an <span class="imp">ESP8266</span>. 
+                            <br><br>
+                            
+                            <div class="image-text-container">
+                                <img src="images/github-icon.svg" alt="Icon" class="icon-img">
+                                <span class="icon-text"><a href="https://github.com/LaTortueBleu/IOT-RGB-LED-Matrix" target="_blank">link to github repository</a></span>
+                            </div>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="Parcours" >
+            <h2>🎢 Career path 👨‍🎓</h2>
+
+            <div class="timeline">
+                <div class="timeline-container">
+                    <h1>Formations</h1>
+                    <div class="timeline-card">
+                        <h3>EFREI Paris</h3>
+                        <p>Villejuif, 2019-2024</p>
+                        <div class="timeline-details">
+                            <p> 
+                                <span class="imp">Major embedded systems and drones</span> : Signal processing, Electronics, Vision, Programming, Modeling and 3D printing, Project management/ Management
+                            </p>
+                        </div>
+                    </div>
+                    <div class="timeline-card">
+                        <h3>Staffordshire University</h3>
+                        <p>Stoke-on-Trent, 2021 (4 months)</p>
+                        <div class="timeline-details">
+                            <p><span class="imp">University exchange</span> (all courses in English) : Computer engineering, Web programming.</p>
+                        </div>
+                    </div>
+                    <div class="timeline-card">
+                        <h3>Institut Notre-Dame</h3>
+                        <p>Bourg-la-Reine, 2003-2019</p>
+                        <div class="timeline-details">
+                            <p>Baccalauréat wth honors (2019)</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="timeline">
+
+                <div class="timeline-container">
+
+                    <h1>Experiences</h1>
+
+                    <div class="timeline-card">
+                        <h3>Research internship - CEA LETI</h3>
+                        <p>Grenoble, 2024 (6 months)</p>
+                        <div class="timeline-details">
+                            <p>
+                                Research internship in the signals and systems laboratory
+                                sensors on the subject of bio-inspired magnetic navigation.
+                                The tasks performed are: writing a state of the art on 
+                                the subject; implementation and simulation in python of several 
+                                navigation strategies studied.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="timeline-card">
+                        <h3>Embedded systems engineer internship - Inorevia</h3>
+                        <p>Paris, 2023 (5 months)</p>
+                        <div class="timeline-details">
+                            <p>
+                                Inorevia is a medical startup. The internship was carried out in the R&D branch as an embedded software engineer. 
+                                The tasks performed are the optimization and design of libraries 
+                                on a Cortex M7 for sensors and actuators (NEMA 17/23 motors, LED strip, microfluidic pumps); Integration of an RTOS (freertos); drafting of documentation 
+                                technical. CAN, RS232, I2C communication manipulation.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="timeline-card">
+                        <h3>Summer job - CCI</h3>
+                        <p>Paris, 2021 (1 month)</p>
+                        <div class="timeline-details">
+                            <p>CCI Accounting. Verification and justification of payments.</p>
+                        </div>
+                    </div>
+                    <div class="timeline-card">
+                        <h3>Store assistant internship - Colibri </h3>
+                        <p>Paris, 2020 (1 month)</p>
+                        <div class="timeline-details">
+                            <p>Rope company specialized in difficult access work in the construction industry. Support to the storekeeper and supply of equipment to the teams.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="timeline">
+
+                <div class="timeline-container">
+
+                    <h1>Voluntary</h1>
+
+                    <div class="timeline-card">
+                        <h3>Volunteer - Red Cross</h3>
+                        <p>Fresnes, 2018</p>
+                        <div class="timeline-details">
+                            <p>Social assistance internship. Sorting and distribution of donations.</p>
+                        </div>
+                    </div>
+                    <div class="timeline-card">
+                        <h3>Scouts and guides of France</h3>
+                        <p>Bourg-la-Reine, 2008 - 2020</p>
+                        <div class="timeline-details">
+                            <p> 
+                                Realization of a humanitarian project with a team of
+                                4 people. Participation in an association that 
+                                offers holidays to people with disabilities. 
+                            </p>
+                        </div>
+                    </div>
+                    <div class="timeline-card">
+                        <h3>Lego Robotics Association</h3>
+                        <p>Bourg-la-Reine, 2016 - 2018</p>
+                        <div class="timeline-details">
+                            <p> 
+                                Participation and animation of the robotics club of my school. 
+                                Participation in the First Lego League competition.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="competences">
+            <h2>🦾 Skills ⚒️</h2>
+
+            <div class="skills-section">
+                <div class="skills-column">
+                    <h3>Programming</h3>
+                    <div class="skill-item"><i class="fa fa-code" style="color: #ffffff;" aria-hidden="true"></i><span>C/C++</span></div>
+                    <div class="skill-item"><i class="fa-brands fa-python" style="color: #ffffff;" aria-hidden="true" ></i><span>Python</span></div>
+                    <div class="skill-item"><i class="fa-brands fa-php" style="color: #ffffff;" aria-hidden="true"></i><span>PHP</span></div>
+                    <div class="skill-item"><i class="fa-brands fa-html5" style="color: #ffffff;" aria-hidden="true"></i><span>HTML</span></div>
+                    <div class="skill-item"><i class="fa-brands fa-js" style="color: #ffffff;" aria-hidden="true"></i><span>JS</span></div>
+                    <div class="skill-item"><i class="fa-solid fa-database" style="color: #ffffff;" aria-hidden="true"></i><span>SQL</span></div>
+                </div>
+                <div class="skills-column">
+                    <h3>Softwares</h3>
+                    <div class="skill-item"><i class="fa-brands fa-windows" style="color: #ffffff;" aria-hidden="true"></i><span>Microsoft Office</span></div>
+                    <div class="skill-item"><i class="fa-solid fa-book" style="color: #ffffff;" aria-hidden="true"></i><span>Zotero</span></div>
+                    <div class="skill-item"><i class="fa-solid fa-cubes" style="color: #ffffff;" aria-hidden="true"></i><span>Solidworks</span></div>
+                    <div class="skill-item"><i class="fa-solid fa-cube" style="color: #ffffff;" aria-hidden="true"></i><span>Fusion 360</span></div>
+                    <div class="skill-item"><i class="fa-solid fa-film" style="color: #ffffff;" aria-hidden="true"></i><span>DaVinci resolve</span></div>
+                    <div class="skill-item"><i class="fa-solid fa-pencil" style="color: #ffffff;" aria-hidden="true"></i><span>Adobe animate</span></div>
+                    <div class="skill-item"><i class="fa-solid fa-plug" style="color: #ffffff;" aria-hidden="true"></i><span>EasyEDA</span></div>
+                    <div class="skill-item"><i class="fa-solid fa-laptop-code" style="color: #ffffff;" aria-hidden="true"></i><span>STMCubeIDE</span></div>
+                    <div class="skill-item"><i class="fa-solid fa-calculator" style="color: #ffffff;" aria-hidden="true"></i><span>Matlab</span></div>
+                    <div class="skill-item"><i class="fa-solid fa-code-branch" style="color: #ffffff;" aria-hidden="true"></i><span>Git</span></div>
+                    <div class="skill-item"><i class="fa-solid fa-file-code" style="color: #ffffff;" aria-hidden="true"></i><span>VS Code</span></div>
+                </div>
+                <div class="skills-column">
+                    <h3>Other</h3>
+                    <div class="skill-item"><i class="fa-solid fa-screwdriver-wrench" style="color: #ffffff;" aria-hidden="true"></i><span>Création PCB</span></div>
+                    <div class="skill-item"><i class="fa-solid fa-screwdriver" style="color: #ffffff;" aria-hidden="true"></i><span>Soudage</span></div>
+                    <div class="skill-item"><i class="fa-solid fa-robot" style="color: #ffffff;" aria-hidden="true"></i><span>Electronique</span></div>
+                </div>
+                <div class="skills-column">
+                    <h3>Languages</h3>
+                    <div class="skill-item"><i class="fa-solid fa-graduation-cap" style="color: #ffffff;" aria-hidden="true"></i><span>Anglais TOEIC 890</span></div>
+                </div>
+            </div>
+        </section>
+
+
+        <section id="contact">
+            <h2>📒 Contact 📣</h2>
+            <div class="contact-section">
+                <div class="contact-item">
+                    <i class="fa-solid fa-envelope fa-xl" style="color: #ffffff;"></i>
+                    <p>arthur.soulet-winock@efrei.net</p>
+                </div>
+                <div class="contact-item">
+                    <i class="fa-brands fa-linkedin fa-xl"></i>
+                    <p><a href="https://www.linkedin.com/in/arthur-soulet-winock" target="_blank">Arthur Soulet-Winock</a></p>
+                </div>
+                <div class="contact-item">
+                    <i class="fa-brands fa-github fa-xl"></i>
+                    <p>
+                        <a href="https://github.com/LaTortueVerte" target="_blank">@LaTortueVerte</a> / 
+                        <a href="https://github.com/LaTortueBleu" target="_blank">@LaTortuebleu</a>
+                    </p>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>&copy; <span id="currentYear"></span> Arthur Soulet-Winock. All rights reserved. Icons by <a href="https://fontawesome.com" target="_blank">Font Awesome</a></p>
+    </footer>
+
+    <script src="scripts.js"></script>
+
+</body>
+</html>
