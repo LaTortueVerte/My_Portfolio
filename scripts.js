@@ -148,7 +148,7 @@ document.getElementById('language-toggle').addEventListener('click', function() 
 
     // Redirige vers la page appropriée en fonction de la langue actuelle
     if (currentLang === 'fr') {
-        window.location.href = 'index-en.html';
+        window.location.href = 'index.html';
     } else if (currentLang === 'en') {
         window.location.href = 'index-fr.html';
     }
